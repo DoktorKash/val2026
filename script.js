@@ -1,5 +1,5 @@
 // ✅ Customize these quickly
-alert("JS is running 💘");
+//alert("JS is running 💘");
 
 const CONFIG = {
   yourName: "Swastik",            // <- change
@@ -49,7 +49,8 @@ function moveNoButton() {
   // After a few tries, it becomes extra cute
   if (noMoves === 3) noBtn.textContent = "No 😳";
   if (noMoves === 5) noBtn.textContent = "No pls 🥺";
-  if (noMoves === 7) noBtn.textContent = "Okay fine… No 😭";
+  if (noMoves === 7) noBtn.textContent = "BOHT PEETUNGA, YES KAR 😡";
+  if (noMoves === 9) noBtn.textContent = "KAR NA BHAI YES 😭";
 }
 
 noBtn.addEventListener("mouseenter", moveNoButton);
