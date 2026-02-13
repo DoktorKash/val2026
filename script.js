@@ -1,8 +1,8 @@
 // ✅ Customize these quickly
 const CONFIG = {
-  yourName: "Aastha",            // <- change
-  girlfriendName: "My Love",     // <- change (optional)
-  badgeText: "💌 For you, my love",
+  yourName: "Swastik",            // <- change
+  girlfriendName: "Aastha",     // <- change (optional)
+  badgeText: "💌 For you, my cutu",
 };
 
 const nameEl = document.getElementById("name");
