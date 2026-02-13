@@ -1,4 +1,6 @@
 // ✅ Customize these quickly
+alert("JS is running 💘");
+
 const CONFIG = {
   yourName: "Swastik",            // <- change
   girlfriendName: "Aastha",     // <- change (optional)
