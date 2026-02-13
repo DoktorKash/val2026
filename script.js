@@ -2,7 +2,7 @@
 //alert("JS is running 💘");
 
 const CONFIG = {
-  yourName: "Swastik",            // <- change
+  yourName: "Lover Boy",            // <- change
   girlfriendName: "Aastha",     // <- change (optional)
   badgeText: "💌 For you, my cutu",
 };
