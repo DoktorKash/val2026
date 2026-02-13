@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>💘 Will you be my Valentine?</title>
+    <meta name="description" content="A tiny Valentine’s surprise 💖" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card" aria-label="Valentine card">
+        <div class="top">
+          <div class="badge" id="badge">💌 For you</div>
+          <div class="hearts" aria-hidden="true">💗 💘 💞</div>
+        </div>
+
+        <h1 id="title">Will you be my Valentine?</h1>
+
+        <p class="subtitle" id="subtitle">
+          I made this tiny website just for you ✨
+        </p>
+
+        <div class="message">
+          <p id="message">
+            You make my days softer, funnier, and brighter.  
+            I’d love to celebrate Valentine’s with you 🥺💖
+          </p>
+          <p class="from" id="from">— Yours, <span id="name">[Your Name]</span></p>
+        </div>
+
+        <div class="buttons">
+          <button class="btn yes" id="yesBtn">Yes 💘</button>
+          <button class="btn no" id="noBtn">No 🙈</button>
+        </div>
+
+        <div class="result" id="result" hidden>
+          <h2 id="resultTitle">YAY!! 💞</h2>
+          <p id="resultText">
+            Best decision ever 😌💖  
+            Screenshot this and send it to me!
+          </p>
+          <div class="mini">
+            <span>🥰</span><span>🍫</span><span>🌹</span><span>🎀</span>
+          </div>
+        </div>
+
+        <details class="reasons">
+          <summary>Click for 10 reasons I adore you 💗</summary>
+          <ol id="reasonsList">
+            <li>Your smile is my favorite thing.</li>
+            <li>You’re kind in a way that feels like home.</li>
+            <li>You make boring days feel special.</li>
+            <li>You’re smart and it’s ridiculously attractive.</li>
+            <li>You always know how to make me laugh.</li>
+            <li>You’re beautiful—inside and out.</li>
+            <li>I love how you care about people.</li>
+            <li>You inspire me to be better.</li>
+            <li>I feel lucky every time I talk to you.</li>
+            <li>Because… it’s you. Always you.</li>
+          </ol>
+        </details>
+
+        <footer class="footer">
+          <span id="footerNote">Made with love 💗</span>
+        </footer>
+      </section>
+
+      <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
